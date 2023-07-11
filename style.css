@@ -696,9 +696,17 @@ color: #FFFFFF;
       content: "\2715";
   }
 
-  .menu-toggle.active + .menu {
-      display: block;
-  }
+.menu-toggle.active + .menu {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    top: 50px;
+}
 
   /* Style the menu items */
   .menu li {
@@ -707,12 +715,10 @@ color: #FFFFFF;
   }
 
   /* Add some padding and background color to the menu items */
-  .menu li {
-      padding: 10px;
-      background-color: black !important;
-      color: white !important;
-      margin: 0;
-  }
+.menu li {
+    color: white !important;
+    width: 100%;
+}
 
   /* Style the menu items on hover */
   .menu li:hover {
