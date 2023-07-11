@@ -769,5 +769,6 @@ nav ul li:last-child {padding-right: 0;}
 
 }
 @media screen and (max-width: 768px) and (min-width: 900px) {
-.team-detail, .whyChoose a {width: 220px !important}
+.team-detail {width: 220px !important}
+.whyChoose a {width: 100% !important}
 }
